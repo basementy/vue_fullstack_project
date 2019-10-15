@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vue + GraphQL | Project
 
 This is just a simple project to test GraphQL using VueJS.
@@ -21,3 +22,7 @@ yarn build
 ```
 yarn lint
 ```
+=======
+# Vue + GraphQL Project
+Just a simple project to test GraphQL with VueJS
+>>>>>>> f2cefd959eb2af2701d323f454f35af095a361c1
