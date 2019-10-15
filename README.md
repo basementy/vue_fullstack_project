@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Vue + GraphQL | Project
 
 This is just a simple project to test GraphQL using VueJS.
