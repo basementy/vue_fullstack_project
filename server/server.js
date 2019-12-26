@@ -8,8 +8,7 @@ const typeDefs = `
   }
 
   type Query {
-    prefixes: [Item]
-    sufixes: [Item]
+    items (type: String): [Item]
   }
 `;
 
@@ -24,12 +23,8 @@ const items = [
 
 const resolvers = {
   Query: {
-    prefixes() {
-      return items.filter(item => item.type === "prefix");
-    },
-
-    sufixes() {
-      return items.filter(item => item.type === "sufix");
+    items(_, args) {
+      return items.filter(item => item.type === args.type);
     },
   },
 };
