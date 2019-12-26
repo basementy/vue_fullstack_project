@@ -1,5 +1,5 @@
 {
-  "name": "vue_graphql",
+  "name": "vue_fullstack_client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "bootstrap": "^4.4.1",
     "core-js": "^2.6.5",
     "font-awesome": "^4.7.0",
