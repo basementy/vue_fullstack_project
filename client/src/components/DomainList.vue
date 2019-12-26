@@ -55,6 +55,7 @@ import AppItemList from "./AppItemList";
 
 export default {
   name: "app",
+  
   components: {
     AppItemList
   },
@@ -104,6 +105,3 @@ export default {
   }
 };
 </script>
-
-<style>
-</style>
